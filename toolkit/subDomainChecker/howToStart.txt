@@ -1,0 +1,7 @@
+subdomains.txt has list of all common subdomains. Make sure to update it if you have a better list
+
+Uses brute force dns technique to find subdomains of your website
+
+Plese note :- Replace iborot.com with your domain to check any unwanted or vulnerable subdomains of your website on the internet.
+
+Suggestion go to zap tools provided here to active and passive spider check through all the subdomains to find any injection flaws.

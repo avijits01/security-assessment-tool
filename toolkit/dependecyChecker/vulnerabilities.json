@@ -1,0 +1,143 @@
+[
+  {
+    "package": "node-fetch",
+    "version": "^3.3.2",
+    "vulnerability": {
+      "summary": "node-fetch forwards secure headers to untrusted sites",
+      "severity": "HIGH",
+      "identifiers": [
+        {
+          "type": "GHSA",
+          "value": "GHSA-r683-j2x4-v87g"
+        },
+        {
+          "type": "CVE",
+          "value": "CVE-2022-0235"
+        }
+      ],
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-0235",
+        "https://github.com/node-fetch/node-fetch/commit/36e47e8a6406185921e4985dcbeff140d73eaa10",
+        "https://huntr.dev/bounties/d26ab655-38d6-48b3-be15-f9ad6b6ae6f7",
+        "https://github.com/node-fetch/node-fetch/pull/1453",
+        "https://github.com/node-fetch/node-fetch/commit/5c32f002fdd65b1c6a8f1e3620210813d45c7e60",
+        "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf",
+        "https://lists.debian.org/debian-lts-announce/2022/12/msg00007.html",
+        "https://github.com/node-fetch/node-fetch/pull/1449/commits/5c32f002fdd65b1c6a8f1e3620210813d45c7e60",
+        "https://github.com/node-fetch/node-fetch/commit/1ef4b560a17e644a02a3bfdea7631ffeee578b35",
+        "https://github.com/advisories/GHSA-r683-j2x4-v87g"
+      ],
+      "vulnerableVersionRange": "< 2.6.7"
+    }
+  },
+  {
+    "package": "node-fetch",
+    "version": "^3.3.2",
+    "vulnerability": {
+      "summary": "node-fetch forwards secure headers to untrusted sites",
+      "severity": "HIGH",
+      "identifiers": [
+        {
+          "type": "GHSA",
+          "value": "GHSA-r683-j2x4-v87g"
+        },
+        {
+          "type": "CVE",
+          "value": "CVE-2022-0235"
+        }
+      ],
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-0235",
+        "https://github.com/node-fetch/node-fetch/commit/36e47e8a6406185921e4985dcbeff140d73eaa10",
+        "https://huntr.dev/bounties/d26ab655-38d6-48b3-be15-f9ad6b6ae6f7",
+        "https://github.com/node-fetch/node-fetch/pull/1453",
+        "https://github.com/node-fetch/node-fetch/commit/5c32f002fdd65b1c6a8f1e3620210813d45c7e60",
+        "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf",
+        "https://lists.debian.org/debian-lts-announce/2022/12/msg00007.html",
+        "https://github.com/node-fetch/node-fetch/pull/1449/commits/5c32f002fdd65b1c6a8f1e3620210813d45c7e60",
+        "https://github.com/node-fetch/node-fetch/commit/1ef4b560a17e644a02a3bfdea7631ffeee578b35",
+        "https://github.com/advisories/GHSA-r683-j2x4-v87g"
+      ],
+      "vulnerableVersionRange": ">= 3.0.0, < 3.1.1"
+    }
+  },
+  {
+    "package": "node-fetch",
+    "version": "^3.3.2",
+    "vulnerability": {
+      "summary": "node-fetch Inefficient Regular Expression Complexity ",
+      "severity": "MODERATE",
+      "identifiers": [
+        {
+          "type": "GHSA",
+          "value": "GHSA-vp56-6g26-6827"
+        },
+        {
+          "type": "CVE",
+          "value": "CVE-2022-2596"
+        }
+      ],
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-2596",
+        "https://github.com/node-fetch/node-fetch/commit/28802387292baee467e042e168d92597b5bbbe3d",
+        "https://huntr.dev/bounties/a7e6a136-0a4b-46c4-ad20-802f1dd60bf7",
+        "https://github.com/node-fetch/node-fetch/pull/1611",
+        "https://github.com/node-fetch/node-fetch/releases/tag/v3.2.10",
+        "https://github.com/advisories/GHSA-vp56-6g26-6827"
+      ],
+      "vulnerableVersionRange": ">= 3.0.0, < 3.2.10"
+    }
+  },
+  {
+    "package": "node-fetch",
+    "version": "^3.3.2",
+    "vulnerability": {
+      "summary": "The `size` option isn't honored after following a redirect in node-fetch",
+      "severity": "LOW",
+      "identifiers": [
+        {
+          "type": "GHSA",
+          "value": "GHSA-w7rc-rwvf-8q5r"
+        },
+        {
+          "type": "CVE",
+          "value": "CVE-2020-15168"
+        }
+      ],
+      "references": [
+        "https://github.com/node-fetch/node-fetch/security/advisories/GHSA-w7rc-rwvf-8q5r",
+        "https://nvd.nist.gov/vuln/detail/CVE-2020-15168",
+        "https://github.com/node-fetch/node-fetch/commit/2358a6c2563d1730a0cdaccc197c611949f6a334",
+        "https://github.com/node-fetch/node-fetch/commit/eaff0094c4dfdd5b78711a8c4f1b61e33d282072",
+        "https://github.com/advisories/GHSA-w7rc-rwvf-8q5r"
+      ],
+      "vulnerableVersionRange": ">= 3.0.0-beta.1, <= 3.0.0-beta.8"
+    }
+  },
+  {
+    "package": "node-fetch",
+    "version": "^3.3.2",
+    "vulnerability": {
+      "summary": "The `size` option isn't honored after following a redirect in node-fetch",
+      "severity": "LOW",
+      "identifiers": [
+        {
+          "type": "GHSA",
+          "value": "GHSA-w7rc-rwvf-8q5r"
+        },
+        {
+          "type": "CVE",
+          "value": "CVE-2020-15168"
+        }
+      ],
+      "references": [
+        "https://github.com/node-fetch/node-fetch/security/advisories/GHSA-w7rc-rwvf-8q5r",
+        "https://nvd.nist.gov/vuln/detail/CVE-2020-15168",
+        "https://github.com/node-fetch/node-fetch/commit/2358a6c2563d1730a0cdaccc197c611949f6a334",
+        "https://github.com/node-fetch/node-fetch/commit/eaff0094c4dfdd5b78711a8c4f1b61e33d282072",
+        "https://github.com/advisories/GHSA-w7rc-rwvf-8q5r"
+      ],
+      "vulnerableVersionRange": "< 2.6.1"
+    }
+  }
+]

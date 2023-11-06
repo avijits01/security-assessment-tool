@@ -1,0 +1,7 @@
+# Example requirements.txt with outdated packages known to have vulnerabilities.
+Django==1.6.1
+Flask==0.12
+requests==2.19.1
+urllib3==1.23
+pyyaml==3.13
+pillow==6.2.1
